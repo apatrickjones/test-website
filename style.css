@@ -1,0 +1,369 @@
+/* page setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* all pages header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E2E4E; /* Midnight Manuscript */
+    padding: 10px 20px;
+    color: white;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #742C36; /* Romantic Red */
+}
+
+
+
+
+
+
+
+
+
+/* homepage title */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #2E2E4E;
+}
+
+/* homepage sections */
+section {
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+}
+
+/* homepage promos */
+.promos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.promos div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+/* homepage featured */
+.featured {
+    text-align: center;
+}
+
+.featured img {
+    display: block;
+    margin: 0 auto;
+}
+
+.featured button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #742C36; /* Romantic Red */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.featured button:hover {
+    background-color: #5C2E5C; /* Regal Quill */
+}
+
+/* homepage membership */
+.membership {
+    border: 2px solid #2E2E4E;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    background-color: #fff;
+}
+.membership h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.perks div {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    background: #fff;
+}
+
+
+/* homepage categories */
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.cats div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* gallery page formatting */
+.pRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 900px;
+}
+.pImage img {
+    max-width: 100px;
+    height: auto;
+}
+
+.pInfo {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.pAction button {
+    padding: 10px 15px;
+    background-color: #742C36; /* Romantic Red */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pAction button:hover {
+    background-color: #5C2E5C; /* Regal Quill */
+}
+
+
+
+
+
+
+
+
+
+
+/* about page with picture */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.about div {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: #fff;
+    text-align: left;
+}
+
+/* about page info */
+.addInfo {
+    max-width: 950px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: #fff;
+    text-align: left;
+}
+
+/* about page hours */
+.hours {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: #fff;
+    text-align: left;
+}
+
+/* about page contact us */
+.contact {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.contact button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #742C36; /* Romantic Red */
+    color: white;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #5C2E5C; /* Regal Quill */
+}
+
+
+
+
+
+
+
+
+
+/* Club + Events two-column layout */
+.clubLayout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.clubs {
+    flex: 2;
+}
+
+.clubs section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.clubs img {
+    margin-right: 15px;
+}
+
+.clubs button {
+    background-color: #742C36;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.clubs button:hover {
+    background-color: #5C2E5C;
+}
+
+/* Events sidebar */
+.events {
+    flex: 1;
+    border: 2px solid #2E2E4E;
+    padding: 15px;
+    background: #fff;
+}
+
+.events h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #2E2E4E;
+}
+
+.events div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* all pages newsletter */
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.newsletter img {
+    display: inline-block;
+}
+
+/* all pages footer */
+footer {
+    background-color: #2E2E4E;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #742C36;
+}

@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+nav a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+section {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Promos row */
+section div {
+  display: inline-block;
+  width: 15%;
+  height: 80px;
+  border: 1px solid #000;
+  margin: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+}
+
+/* Featured image + button */
+.featured {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured div {
+  flex: 3;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.featured button {
+  flex: 1;
+  margin-left: 10px;
+  height: 50px;
+}
+
+/* Membership perks */
+.membership {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 10px;
+}
+
+.membership h2 {
+  margin-bottom: 10px;
+}
+
+.membership div {
+  display: inline-block;
+  width: 20%;
+  border: 1px solid #000;
+  height: 60px;
+  margin: 5px;
+  text-align: center;
+  line-height: 60px;
+}
+
+/* Categories grid */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categories div {
+  width: 30%;
+  border: 1px solid #000;
+  height: 60px;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.newsletter form {
+  flex: 2;
+  display: flex;
+}
+
+.newsletter input {
+  flex: 3;
+  padding: 5px;
+}
+
+.newsletter button {
+  flex: 1;
+}
+
+.newsletter div {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin: 20px;
+}
+
+footer a {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #000;
+  padding: 10px;
+}
